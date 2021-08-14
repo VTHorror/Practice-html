@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="jaha se vo information lega.php">
+        <!-- div tag ak tarah se br tag ka kaam bhi karta hai kaha sakte ho asa -->
+        <!-- label tag search on google -->
+        <label for="name">Name</label>
+        <!-- ab name pe click karke dekho  -->
+        <div>
+             <input type="text" id="name">
+        </div>
+        <div>
+           DOB: <br><input type="date" name="mydate" id="">
+
+        </div>
+        <div>
+            Email: <br><input type="email" name="isse aapka backend ise email ko pahachanega">
+        </div>
+        <div>
+            Salary: <br><input type="number" name="Mysalary" id="">
+        </div>
+        <div>
+            Gender: <br>Male <input type="radio" name="Mygender" id=""> Female <input type="radio" name="Mygender" id="">
+        </div>
+        <div>
+Write about yourself: <br><textarea name="About me" id="" cols="20" rows="5"></textarea>
+
+        </div>
+        <!-- Label and select tag and selected attribute bhi hai  -->
+        <div>
+            <label for="ani">Favourite Anime:</label>
+        <select name="myanime" id="ani">
+            <option value="G">Guilty Crown</option>
+            <option value="P">Pokemon</option>
+            <option value="N">Naruto</option>
+            <option value="All" selected>All of them</option>
+        </select>
+        
+        </div>
+        <br>
+        <!-- Submit karne ke liye -->
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset">
+        </div>
+
+
+    </form>
+</body>
+
+</html>
